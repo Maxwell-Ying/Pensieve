@@ -394,6 +394,7 @@ struct HVertex
       _is_high_degree_vertex = other._is_high_degree_vertex;
       pos = other.pos;
     }
+    return *this;
   }
 
   template <class VS, class F, class G>
